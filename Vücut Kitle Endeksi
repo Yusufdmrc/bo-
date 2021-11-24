@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class JavaApplication22 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        double a,b,indeks;
+        
+        Scanner input =new Scanner(System.in);
+        System.out.println("Lütfen boyunuzu(metre cinsinde) giriniz:");
+        a=input.nextDouble();
+        System.out.println("Lütfen kilonuzu giriniz:");
+        b=input.nextDouble();
+        
+        indeks=b/(a*a);
+        System.out.println("Vücut kitle indeksiniz:"+indeks);
+                
+       
+        
+    }
+    
+}
